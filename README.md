@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Invoice Generator Application
 
 A full-stack Invoice Generator application built with the MERN stack, featuring modern UI design, PDF generation, and user authentication.
@@ -322,3 +323,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ If you found this project helpful, please give it a star on GitHub!
+=======
+# InvoiceGenerator
+>>>>>>> 19f2810cb55f59d0ea6d610deac065594ae72219
