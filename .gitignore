@@ -12,7 +12,7 @@ lerna-debug.log*
 
 # Runtime
 *.local
-.env
+*.env
 
 # Build output
 dist
