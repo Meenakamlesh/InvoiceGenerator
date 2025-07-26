@@ -22,6 +22,11 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/invoice-g
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.log('MongoDB connection error:', err));
 
+  app.get('/', (req, res) => {
+  res.send('API is running...');
+});
+
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
