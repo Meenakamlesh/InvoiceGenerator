@@ -1,6 +1,6 @@
 import { useMutation } from '@tanstack/react-query';
 import { useDispatch } from 'react-redux';
-import api from '../utils/api';
+import api from '../api';
 import { setCurrentInvoiceId, clearProducts } from '../store/invoiceSlice';
 import type  { Product, Invoice, ApiError } from '../types';
 

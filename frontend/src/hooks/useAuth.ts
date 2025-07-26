@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import api from '../utils/api'
+import api from '../api'
 import { loginSuccess, logout } from '../store/authSlice';
 import type { AuthResponse, ApiError } from '../types';
 
